@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FnAudioExtractor", "FnAudioExtractor\FnAudioExtractor.csproj", "{A8D01ADE-13CF-4BA7-AC45-076EA1452EA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicManifestParser", "..\..\..\Frameworks\EpicManifestParser-4e9f44b620dac13736f964d2c6a82b2b7271aa63\src\EpicManifestParser\EpicManifestParser.csproj", "{78D98368-C9D3-4A85-8B0D-051F5A88248C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CUE4Parse", "..\..\..\Frameworks\CUE4Parse\CUE4Parse\CUE4Parse.csproj", "{B34584A0-3938-49EF-B4CD-AE0054D7CA62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CUE4Parse-Conversion", "..\..\..\Frameworks\CUE4Parse\CUE4Parse-Conversion\CUE4Parse-Conversion.csproj", "{3FFAF456-77D4-4787-8532-8E3B8EC521D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8D01ADE-13CF-4BA7-AC45-076EA1452EA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8D01ADE-13CF-4BA7-AC45-076EA1452EA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8D01ADE-13CF-4BA7-AC45-076EA1452EA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8D01ADE-13CF-4BA7-AC45-076EA1452EA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78D98368-C9D3-4A85-8B0D-051F5A88248C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78D98368-C9D3-4A85-8B0D-051F5A88248C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78D98368-C9D3-4A85-8B0D-051F5A88248C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78D98368-C9D3-4A85-8B0D-051F5A88248C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B34584A0-3938-49EF-B4CD-AE0054D7CA62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B34584A0-3938-49EF-B4CD-AE0054D7CA62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B34584A0-3938-49EF-B4CD-AE0054D7CA62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B34584A0-3938-49EF-B4CD-AE0054D7CA62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FFAF456-77D4-4787-8532-8E3B8EC521D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FFAF456-77D4-4787-8532-8E3B8EC521D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FFAF456-77D4-4787-8532-8E3B8EC521D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FFAF456-77D4-4787-8532-8E3B8EC521D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

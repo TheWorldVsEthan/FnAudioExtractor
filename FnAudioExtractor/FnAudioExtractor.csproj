@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Serilog" Version="4.2.0" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Frameworks\CUE4Parse\CUE4Parse\CUE4Parse.csproj" />
+    <ProjectReference Include="..\..\..\..\Frameworks\EpicManifestParser-4e9f44b620dac13736f964d2c6a82b2b7271aa63\src\EpicManifestParser\EpicManifestParser.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="CUE4Parse-Conversion">
+      <HintPath>..\..\..\..\Frameworks\CUE4Parse\CUE4Parse-Conversion\bin\Debug\net8.0\CUE4Parse-Conversion.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
